@@ -1,0 +1,4 @@
+- name: install mysql-server
+  sudo: true
+  apt: pkg=mysql-server
+  notify: restart mysql
